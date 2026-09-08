@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Treinta - Inventario rápido (caché local)
-// @namespace    https://zafiro.local/tampermonkey
+// @namespace    http://tampermonkey.net/
 // @version      1.0.7
 // @description  Guarda el inventario de Treinta en IndexedDB y responde búsquedas desde el caché local.
-// @author       Zafiro
+// @author       @NOMFPS
 // @match        https://web.treinta.co/new-sale*
 // @run-at       document-start
 // @grant        none

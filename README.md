@@ -1,9 +1,12 @@
 # Better Inventory, Search and selling For treinta.co
-# Mejorar inventario, busqueda y venta para treinta.co
+## Mejorar inventario, busqueda y venta para treinta.co
 
 Ya que los programadores de ese sitio web son basura, he creado un script para que el inventario con mas de 2000 items sea cargado en cache; para que las busquedas sean instantaneas sin necesidad de llamar a la Api de AWS, el cual carga el inventario por cada busqueda, tambien mejoré la busqueda por palabra ya que si colocabas 2 palabras los buscaba como 2 items separados por coma. añadidos atajos para borrar rapido y sistema para venta rapida con Enter (pad numérico) e imprimir y venta rapida con la tecla + (pad numérico)
 
 la finalidad de este script es mejorar el flujo de trabajo ya que antes de una actualizacion el sistema funcionaba perfecto pero los programadores añaden una funcion que rompe las demás y el sistema y la atencion al cliente lo unico que te dicen es que "borres cache"
+
+### Descargo de responsabilidad: 
+Estos scripts son herramientas no oficiales desarrolladas para uso personal con Tampermonkey y no están afiliados, respaldados ni garantizados por Treinta. Su funcionamiento depende de la estructura y los servicios actuales de la plataforma, por lo que puede dejar de funcionar si Treinta modifica su interfaz, API o flujo de ventas. Los atajos automáticos pueden ejecutar ventas reales en el backend; el usuario es responsable de verificar la canasta, los productos, los precios y la modalidad de venta antes de activar cualquier acción. El caché local puede contener información desactualizada temporalmente. El uso de estos scripts se realiza bajo responsabilidad exclusiva del usuario y se recomienda probarlos primero en un entorno controlado.
 
 Userscripts para [Tampermonkey](https://www.tampermonkey.net/) que aceleran el flujo de ventas en [Treinta](https://web.treinta.co/new-sale):
 
